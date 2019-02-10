@@ -2678,6 +2678,7 @@ input, select, textarea {
 			-webkit-flex-direction: row-reverse;
 			-ms-flex-direction: row-reverse;
 			flex-direction: row-reverse;
+            text-align:right;
 		}
 
 		.spotlight:nth-child(1) {
