@@ -158,6 +158,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2786,6 +2787,28 @@ input, select, textarea {
 			@media screen and (max-width: 980px) {
 
 				.wrapper > .inner {
+					width: 100%;
+				}
+
+			}
+
+		.wrapper > .innerText {
+			width: 50em;
+			margin: 0 auto;
+			letter-spacing: 0.225em;
+		}
+
+			@media screen and (max-width: 1280px) {
+
+				.wrapper > .innerText {
+					width: 90%;
+				}
+
+			}
+
+			@media screen and (max-width: 980px) {
+
+				.wrapper > .innerText {
 					width: 100%;
 				}
 
